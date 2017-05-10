@@ -1,0 +1,13 @@
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\ProvincialParks.CampingApp.exe.config
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\InputOutput\campingtrips.txt
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\ProvincialParks.CampingApp.exe
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\ProvincialParks.CampingApp.pdb
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\Castle.Core.dll
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\Moq.dll
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\Castle.Core.xml
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\Moq.xml
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\obj\Debug\ProvincialParks.CampingApp.csprojResolveAssemblyReference.cache
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\obj\Debug\ProvincialParks.CampingApp.exe
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\obj\Debug\ProvincialParks.CampingApp.pdb
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\Ninject.dll
+C:\ProvincialParks.CampingApp\ProvincialParks.CampingApp\bin\Debug\Ninject.xml
