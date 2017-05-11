@@ -5,11 +5,13 @@ Here is the exercise
 Rules:
 1.     The solution should be done as a Windows console application written in C#.
 
-2.     The input should be read from a text file where the filename is given as the first and only parameter to the Windows console application.
+2.     The input should be read from a text file where the filename is given as the first
+       and only parameter to the Windows console application.
 
 3.     The output should be written to a text file in the same directory as the input file.
 
-4.     The output filename should be the original input filename + “.out”.  For example, if the input file was expenses.txt then the output file would be expenses.txt.out.
+4.     The output filename should be the original input filename + “.out”.  For example,
+       if the input file was expenses.txt then the output file would be expenses.txt.out.
 
 
 5.     The solution should follow coding best practices.
