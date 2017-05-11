@@ -15,10 +15,9 @@ namespace ProvincialParks.CampingApp.Infrastructure
         private IFileReader FileReader { get;  set; }
         private IFileWriter FileWriter { get; set; }
 
-        public CampingTripExpenseCalculator(IFileReader fileReader, IFileWriter fileWriter)
+        public CampingTripExpenseCalculator(IFileReader fileReader)
         {
             FileReader = fileReader;
-            FileWriter = fileWriter;
         }
 
         public void CalculateExpenses(string lineRead)
@@ -30,6 +29,7 @@ namespace ProvincialParks.CampingApp.Infrastructure
                 var campingTrips = FileReader.ReadFile(filePath);
                 if (campingTrips != null && campingTrips.Count > 0)
                 {
+                    FileWriter = new TextFileWriter(filePath);
                     FileWriter.WriteFile(campingTrips);
                 }
                 else

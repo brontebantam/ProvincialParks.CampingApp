@@ -9,7 +9,7 @@ namespace ProvincialParks.UnitTests
     public class CampingTripTests
     {
         [TestMethod]
-        public void GetTotalExpenses_ShouldReturnTotal_WhenValuesInList()
+        public void TotalExpenses_ShouldReturnTotalPerTrip_WhenValuesInList()
         {
             //act
             var campingTrip = new CampingTrip(2);
@@ -24,7 +24,7 @@ namespace ProvincialParks.UnitTests
         }
 
         [TestMethod]
-        public void GetTotalExpenses_ShouldReturnAverage_WhenValuesInList()
+        public void GetAmountOwedPerPerson_ShouldReturnTotalOwedByPerson_WhenValuesInList()
         {
             //act
             var campingTrip = new CampingTrip(3);

@@ -4,8 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ninject;
+using ProvincialParks.CampingApp.Infrastructure;
 using ProvincialParks.CampingApp.Infrastructure.Interfaces;
 using System.Reflection;
+using Ninject.Modules;
+using Ninject;
+using Ninject.Parameters;
+
 namespace ProvincialParks.CampingApp
 {
     class Program
@@ -14,7 +19,10 @@ namespace ProvincialParks.CampingApp
         {
             var kernel = new StandardKernel();
             kernel.Load(Assembly.GetExecutingAssembly());
-            var expenseCalculator = kernel.Get<IExpenseCalculator>();
+            //Set the parameter
+            IParameter parameterFileReader = new ConstructorArgument("fileReader", kernel.Get<IFileReader>());
+            var expenseCalculator = kernel.Get<IExpenseCalculator>(parameterFileReader);
+
 
             Console.WriteLine("Enter Filename");
             var lineRead = Console.ReadLine();

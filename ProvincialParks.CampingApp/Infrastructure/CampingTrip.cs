@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ProvincialParks.CampingApp.Infrastructure;
+using ProvincialParks.CampingApp.Infrastructure.Interfaces;
 
 namespace ProvincialParks.CampingApp.Infrastructure
 {
     // Class Responsible for containing camping trip details and returning related expenses
-    public class CampingTrip
+    public class CampingTrip : ICampingTrip
     {
         public int NumberOfPeople { get; private set; }
         public IList<Expense> Expenses { get; set; }

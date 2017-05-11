@@ -13,8 +13,6 @@ namespace ProvincialParks.CampingApp.Infrastructure
     {
         public override void Load()
         {
-            Bind<IFileReader>().To<TextFileReader>();
-            Bind<IFileWriter>().To<TextFileWriter>();
             Bind<IExpenseCalculator>().To<CampingTripExpenseCalculator>();
 
         }

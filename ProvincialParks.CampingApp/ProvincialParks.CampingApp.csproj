@@ -54,6 +54,7 @@
     <Compile Include="Infrastructure\CampingTripExpenseCalculator.cs" />
     <Compile Include="Infrastructure\DependencyInjectionBindings.cs" />
     <Compile Include="Infrastructure\Expense.cs" />
+    <Compile Include="Infrastructure\Interfaces\ICampingTrip.cs" />
     <Compile Include="Infrastructure\Interfaces\IExpenseCalculator.cs" />
     <Compile Include="Infrastructure\Interfaces\IFileWriter.cs" />
     <Compile Include="Infrastructure\TextFileReader.cs" />
