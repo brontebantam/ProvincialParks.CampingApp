@@ -14,9 +14,9 @@ namespace ProvincialParks.CampingApp.Infrastructure
         public IList<CampingTrip> allTrips {get; private set;}
         private int rowNumber = 0;
 
-        public TextFileReader(List<CampingTrip> campingTrips) 
+        public TextFileReader() 
         {
-            allTrips = campingTrips;
+            allTrips = new List<CampingTrip>();
         }
 
         public IList<CampingTrip> ReadFile(string fileName)

@@ -1,3 +1,12 @@
+# Ignore Bin Directory
+bin
+bin/
+
+# Ignore obj Directory
+obj
+obj/
+packages
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -46,7 +55,3 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# Ignore Bin Directory
-bin/
-# Ignore obj Directory
-obj/
