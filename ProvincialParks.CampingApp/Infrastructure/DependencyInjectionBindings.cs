@@ -14,7 +14,7 @@ namespace ProvincialParks.CampingApp.Infrastructure
         public override void Load()
         {
             Bind<IExpenseCalculator>().To<CampingTripExpenseCalculator>();
-
+            Bind<IFileReader>().To<TextFileReader>();
         }
     }
 }
